@@ -7,15 +7,10 @@ change file flags
 usage: chflags [-fhv] [-R [-H | -L | -P]] flags file ...
 ```
 
-[chflags man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/chflags.1.html)
-
-
 ## defaults
 Command line interface to a user's defaults.
 
 ```
-❯ defaults
-
 Syntax:
 
 'defaults' [-currentHost | -host <hostname>] followed by one of the following:
@@ -59,53 +54,10 @@ Syntax:
 
 **Tip:** Use `defaults domains` to to list all domains available. 
 
-[defaults man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/defaults.1.html)  
-
-
 ## launchctl: 
 Unload daemons/agents and generally control launchd
 
-```  
-❯ launchctl help
-
-usage: launchctl <subcommand>
-	load       	Load configuration files and/or directories
-	unload     	Unload configuration files and/or directories
-	start      	Start specified job
-	stop       	Stop specified job
-	submit     	Submit a job from the command line
-	remove     	Remove specified job
-	bootstrap  	Bootstrap launchd
-	list       	List jobs and information about jobs
-	setenv     	Set an environmental variable in launchd
-	unsetenv   	Unset an environmental variable in launchd
-	getenv     	Get an environmental variable from launchd
-	export     	Export shell settings from launchd
-	debug      	Set the WaitForDebugger flag for the target job to true.
-	limit      	View and adjust launchd resource limits
-	stdout     	Redirect launchd's standard out to the given path
-	stderr     	Redirect launchd's standard error to the given path
-	shutdown   	Prepare for system shutdown
-	singleuser 	Switch to single-user mode
-	getrusage  	Get resource usage statistics from launchd
-	log        	Adjust the logging level or mask of launchd
-	umask      	Change launchd's umask
-	bsexec     	Execute a process within a different Mach bootstrap subset
-	bslist     	List Mach bootstrap services and optional servers
-	bstree     	Show the entire Mach bootstrap tree. Requires root privileges.
-	managerpid 	Print the PID of the launchd managing this Mach bootstrap.
-	manageruid 	Print the UID of the launchd managing this Mach bootstrap.
-	managername	Print the name of this Mach bootstrap.
-	asuser     	Execute a subcommand in the given user's context.
-	exit       	Exit the interactive invocation of launchctl
-	quit       	Quit the interactive invocation of launchctl
-	help       	This help output
-```
-
 **Tip:** Use `launchctl list` to show the currently set values for `launchctl`.
-
-[launchctl man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/launchctl.1.html)
-
 
 ## mdutil
 Manage the metadata stores used by Spotlight
