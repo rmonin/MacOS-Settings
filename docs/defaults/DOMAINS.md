@@ -11,9 +11,9 @@ All domains known are listed here with a quick description and a corresponding d
 ## Configurable domains
 
 ## Non relevant domains
+- [.GlobalPreferences_m](.GlobalPreferences_m.md)
 
 ## Not yet checked 
-.GlobalPreferences_m
 ContextStoreAgent
 MobileMeAccounts
 com.apple.AMPLibraryAgent

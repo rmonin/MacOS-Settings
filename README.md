@@ -23,7 +23,6 @@ Hardware:
       Memory: 16 GB
       System Firmware Version: 6723.120.36
       OS Loader Version: 6723.120.36
-
 ```
 
 ## Repositories configuration
