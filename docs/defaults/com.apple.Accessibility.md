@@ -47,11 +47,11 @@ defaults write com.apple.Accessibility VoiceOverTouchEnabled -bool true
 
 ### Zoom
 
-N/A, Missing
+<!-- TODO -->
 
 ### Display
 
-#### Display
+#### Display > Display
 
 ![Display - Display](/media/com.apple.Accessibility.Display.Display.png)
 
@@ -78,17 +78,89 @@ defaults write com.apple.Accessibility DifferentiateWithoutColor -bool true
 
 **Missing** `Menu bar size`, `Display contrast`
 
-#### Cursor
+#### Display > Cursor
 
 ![Display - Cursor](/media/com.apple.Accessibility.Display.Cursor.png)
  
- N/A, Missing
+ <!-- TODO -->
 
-#### Color Filters
+#### Display > Color Filters
 
 ![Display - Color filters](/media/com.apple.Accessibility.Display.ColorFilters.png)
  
- N/A, Missing
+ <!-- TODO -->
+
+### Spoken Content
+
+<!-- TODO -->
+
+### Descriptions
+
+<!-- TODO -->
+
+### Audio
+
+<!-- TODO -->
+
+### Captions
+
+<!-- TODO -->
+
+### Voice Control
+
+<!-- TODO -->
+
+### Keyboard
+
+<!-- TODO -->
+
+#### Keyboard > Hardware
+
+<!-- TODO -->
+
+#### Keyboard > Accessiblity Keyboard
+
+<!-- TODO -->
+
+### Pointer Control
+
+<!-- TODO -->
+
+#### Pointer Control > Mouse & Trackpad
+
+<!-- TODO -->
+
+#### Pointer Control > Alternative Control Methods
+
+<!-- TODO -->
+
+### Switch Control
+
+<!-- TODO -->
+
+#### Switch Control > General
+
+<!-- TODO -->
+
+#### Switch Control > Typing
+
+<!-- TODO -->
+
+#### Switch Control > Switches
+
+<!-- TODO -->
+
+#### Switch Control > Navigation
+
+<!-- TODO -->
+
+### Siri
+
+<!-- TODO -->
+
+### Shortcut
+
+<!-- TODO -->
 
 ## Not yet Documented
 
