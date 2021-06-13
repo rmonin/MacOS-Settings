@@ -28,7 +28,7 @@ Manage Accessibility tools configuration
 
 ## Graphical
 
-![System Preferences](/media/SystemPreferences.png)
+![System Preferences](/media/SystemPreferences.Accessibility.png)
 
 Go to System Preferences > Accessibility
 
@@ -90,7 +90,7 @@ defaults write com.apple.Accessibility DifferentiateWithoutColor -bool true
  
  N/A, Missing
 
-## Not Documented
+## Not yet Documented
 
 - BrailleInputDeviceConnected
 - CommandAndControlEnabled
