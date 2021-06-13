@@ -28,7 +28,7 @@ Manage Accessibility tools configuration
 
 ## Graphical
 
-![System Preferences](/media/com.apple.Accessibility.png)
+![System Preferences](/media/SystemPreferences.png)
 
 Go to System Preferences > Accessibility
 
