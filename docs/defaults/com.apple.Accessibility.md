@@ -28,13 +28,13 @@ Manage Accessibility tools configuration
 
 ## Graphical
 
-![System Preferences](./media/com.apple.Accessibility.png)
+![System Preferences](/media/com.apple.Accessibility.png)
 
 Go to System Preferences > Accessibility
 
 ### VoiceOver
 
-![Voice Over](./media/com.apple.Accessibility.VoiceOver.png)
+![Voice Over](/media/com.apple.Accessibility.VoiceOver.png)
 
 ```bash
 # Depending of wich parameters are enable or not, should test before set theses
@@ -53,7 +53,7 @@ N/A, Missing
 
 #### Display
 
-![Display - Display](./media/com.apple.Accessibility.Display.Display.png)
+![Display - Display](/media/com.apple.Accessibility.Display.Display.png)
 
 ```bash
 # Depending of wich parameters are enable or not, should test before set this
@@ -80,13 +80,13 @@ defaults write com.apple.Accessibility DifferentiateWithoutColor -bool true
 
 #### Cursor
 
-![Display - Cursor](./media/com.apple.Accessibility.Display.Cursor.png)
+![Display - Cursor](/media/com.apple.Accessibility.Display.Cursor.png)
  
  N/A, Missing
 
 #### Color Filters
 
-![Display - Color filters](./media/com.apple.Accessibility.Display.ColorFilters.png)
+![Display - Color filters](/media/com.apple.Accessibility.Display.ColorFilters.png)
  
  N/A, Missing
 
