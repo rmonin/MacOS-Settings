@@ -15,6 +15,18 @@ killall -SIGHUP cfprefsd
 
 **Not tested yet**
 
+## Keys
+
+```
+CKDPIDSyncState = 0;
+adprivacydMaxSegmentSendInterval = 259200;
+adprivacydSegmentInterval = 54766;
+allowApplePersonalizedAdvertising = 1;
+allowIdentifierForAdvertising = 1;
+"partiality-segment" = "https://partiality.itunes.apple.com/WebObjects/MZPartiality.woa/wa/IAD/segment";
+personalizedAdsMigrated = 1;
+```
+
 ## See also
 
 - [com.apple.preference.security.privacy](com.apple.preference.security.privacy.md)
