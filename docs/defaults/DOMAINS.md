@@ -12,6 +12,7 @@ All domains known are listed here with a quick description and a corresponding d
 - [com.apple.Accessibility](com.apple.Accessibility.md) - _part of Accessibility settings_
 - [com.apple.AddressBook](com.apple.AddressBook.md) - _Address Book app settings_
 - [com.apple.AdLib](com.apple.AdLib.md) - _part of security & privacy settings, around advertisments behavior_
+- [com.apple.AdPlatforms](com.apple.AdPlatforms.md) - _something around ads_
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
@@ -22,7 +23,6 @@ All domains known are listed here with a quick description and a corresponding d
 
 
 ## Not yet checked 
-- com.apple.AdPlatforms
 - com.apple.airplay
 - com.apple.amp.mediasharingd
 - com.apple.AMPLibraryAgent
