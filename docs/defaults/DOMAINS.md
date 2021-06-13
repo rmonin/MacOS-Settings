@@ -10,17 +10,17 @@ All domains known are listed here with a quick description and a corresponding d
 
 ## Configurable domains
 - [com.apple.Accessibility](com.apple.Accessibility.md)
+- [com.apple.AddressBook](com.apple.AddressBook.md)
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
+- com.apple.accounts
+- com.apple.accountsd
 - ContextStoreAgent
 - MobileMeAccounts - _used by iCloud_
 
 
 ## Not yet checked 
-- com.apple.accounts
-- com.apple.accountsd
-- com.apple.AddressBook
 - com.apple.AdLib
 - com.apple.AdPlatforms
 - com.apple.airplay
