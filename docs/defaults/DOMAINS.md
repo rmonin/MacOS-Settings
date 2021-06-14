@@ -15,6 +15,8 @@ All domains known are listed here with a quick description and a corresponding d
 - [com.apple.AdPlatforms](com.apple.AdPlatforms.md) - _something around ads_
 - [com.apple.airplay](com.apple.airplay.md) - _manage air play indicator in menu bar_
 - [com.apple.AppStore](com.apple.AppStore.md) - _Some AppStore settings_
+- [com.apple.assistant.support](com.apple.assistant.support.md)
+- [com.apple.commerce](com.apple.commerce.md)
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
@@ -26,6 +28,8 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.ap.adprivacyd - _iAd privacy, should not update see `man adprivacyd`_
 - ContextStoreAgent
 - MobileMeAccounts - _used by iCloud_
+- com.apple.commerce.knownclients
+- com.apple.AppleMediaServicesUI
 
 
 ## Not yet checked 
@@ -33,15 +37,13 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.amsengagementd
 - com.apple.AppleMediaServices
 - com.apple.AppleMediaServices.notbackedup
+- com.apple.assistant
+- com.apple.assistant.backedup
+- com.apple.assistantd
 
-- com.apple.AppleMediaServicesUI
 - com.apple.AppleMultitouchMouse
 - com.apple.AppleMultitouchTrackpad
 - com.apple.appstored
-- com.apple.assistant
-- com.apple.assistant.backedup
-- com.apple.assistant.support
-- com.apple.assistantd
 - com.apple.AvatarUI.Staryu
 - com.apple.BezelServices
 - com.apple.bird
@@ -61,8 +63,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.commcenter.callservices
 - com.apple.CommCenter.counts
 - com.apple.commcenter.data
-- com.apple.commerce
-- com.apple.commerce.knownclients
 - com.apple.contacts.donation-agent
 - com.apple.controlcenter
 - com.apple.coreauthd
