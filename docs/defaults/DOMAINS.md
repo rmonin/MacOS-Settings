@@ -14,28 +14,29 @@ All domains known are listed here with a quick description and a corresponding d
 - [com.apple.AdLib](com.apple.AdLib.md) - _part of security & privacy settings, around advertisments behavior_
 - [com.apple.AdPlatforms](com.apple.AdPlatforms.md) - _something around ads_
 - [com.apple.airplay](com.apple.airplay.md) - _manage air play indicator in menu bar_
+- [com.apple.AppStore](com.apple.AppStore.md) - _Some AppStore settings_
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
 - com.apple.accounts
 - com.apple.accountsd
-- ContextStoreAgent
-- MobileMeAccounts - _used by iCloud_
 - com.apple.amp.mediasharingd - _should not update. see `man mediasharingd`_
 - com.apple.AMPLibraryAgent - _should not update see `man AMPLibraryAgent`_
+- com.apple.animoji
+- com.apple.ap.adprivacyd - _iAd privacy, should not update see `man adprivacyd`_
+- ContextStoreAgent
+- MobileMeAccounts - _used by iCloud_
 
 
 ## Not yet checked 
 - com.apple.amsaccountsd
 - com.apple.amsengagementd
-- com.apple.animoji
-- com.apple.ap.adprivacyd
 - com.apple.AppleMediaServices
 - com.apple.AppleMediaServices.notbackedup
+
 - com.apple.AppleMediaServicesUI
 - com.apple.AppleMultitouchMouse
 - com.apple.AppleMultitouchTrackpad
-- com.apple.AppStore
 - com.apple.appstored
 - com.apple.assistant
 - com.apple.assistant.backedup
