@@ -21,11 +21,11 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.accountsd
 - ContextStoreAgent
 - MobileMeAccounts - _used by iCloud_
+- com.apple.amp.mediasharingd - _should not update. see `man mediasharingd`_
+- com.apple.AMPLibraryAgent - _should not update see `man AMPLibraryAgent`_
 
 
 ## Not yet checked 
-- com.apple.amp.mediasharingd
-- com.apple.AMPLibraryAgent
 - com.apple.amsaccountsd
 - com.apple.amsengagementd
 - com.apple.animoji
