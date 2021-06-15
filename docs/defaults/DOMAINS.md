@@ -46,6 +46,10 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.screencapture
 - com.apple.screensaver
 - com.apple.spaces
+- com.apple.universalaccess
+- com.apple.helpviewer
+- com.apple.driver.AppleBluetoothMultitouch.mouse
+- com.apple.driver.AppleBluetoothMultitouch.trackpad
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
@@ -61,9 +65,10 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.bird - _Backup documents manager for iCloud. Shoult not update. See `man bird`_
 - com.apple.commerce.knownclients
 - ContextStoreAgent
+- loginwindow
 - MobileMeAccounts - _used by iCloud_
 
-## Not yet checked 
+## Not yet checked
 - com.apple.amsaccountsd
 - com.apple.amsengagementd
 - com.apple.AppleMediaServices
@@ -72,6 +77,16 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.assistant.backedup
 - com.apple.assistantd
 - com.apple.BezelServices - [article](https://robert.sesek.com/2016/3/bezelservices_on_os_x.html)
+- com.apple.print.PrintingPrefs
+- com.apple.LaunchServices
+- com.apple.mouse.tapBehavior
+- com.apple.BluetoothAudioAgent
+- com.apple.windowserver
+- com.apple.desktopservices
+- com.apple.frameworks.diskimages
+- com.apple.frameworks.diskimages.diuiagent
+- com.apple.NetworkBrowser
+- com.apple.dashboard - Doest not exists on Big Sur
 
 - com.apple.calculateframework
 - com.apple.CalendarAgent
@@ -97,8 +112,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.corespotlightui
 - com.apple.DataDeliveryServices
 - com.apple.DiagnosticExtensions.extensionTracker
-- com.apple.driver.AppleBluetoothMultitouch.mouse
-- com.apple.driver.AppleBluetoothMultitouch.trackpad
 - com.apple.driver.AppleHIDMouse
 - com.apple.EmojiCache
 - com.apple.EmojiPreferences
@@ -107,11 +120,9 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.fileproviderd
 - com.apple.FolderActionsDispatcher
 - com.apple.FontRegistry.user
-- com.apple.frameworks.diskimages.diuiagent
 - com.apple.gamecenter
 - com.apple.gamed
 - com.apple.GEO
-- com.apple.helpviewer
 - com.apple.homed
 - com.apple.homed.notbackedup
 - com.apple.iBooksX
@@ -213,13 +224,11 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.triald
 - com.apple.TTY
 - com.apple.TV
-- com.apple.universalaccess
 - com.apple.UserAccountUpdater
 - com.apple.weather.internal
 - com.apple.xpc.activity2
 - com.knollsoft.Rectangle
 - knowledge-agent
-- loginwindow
 - pbs
 - siriknowledged
 - systemgroup.com.apple.icloud.searchpartyd.sharedsettings
