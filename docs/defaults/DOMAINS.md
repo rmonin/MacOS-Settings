@@ -14,9 +14,38 @@ All domains known are listed here with a quick description and a corresponding d
 - [com.apple.AdLib](com.apple.AdLib.md) - _part of security & privacy settings, around advertisments behavior_
 - [com.apple.AdPlatforms](com.apple.AdPlatforms.md) - _something around ads_
 - [com.apple.airplay](com.apple.airplay.md) - _manage air play indicator in menu bar_
+- [com.apple.AppleMultitouchMouse](com.apple.AppleMultitouchMouse.md) - _Multitouch Mouse config_ 
+- [com.apple.AppleMultitouchTrackpad](com.apple.AppleMultitouchTrackpad.md) - _Multitouch Trackpad config_
 - [com.apple.AppStore](com.apple.AppStore.md) - _Some AppStore settings_
 - [com.apple.assistant.support](com.apple.assistant.support.md)
 - [com.apple.commerce](com.apple.commerce.md)
+- [com.apple.controlcenter](com.apple.controlcenter.md) - _Menu Bar, Control Center config_
+- com.apple.BKAgentService - Manage books from iBooks purshase
+- com.apple.Dictionary
+- com.apple.DictionaryServices
+- com.apple.dock - _Dock Config_
+- com.apple.finder - _Finder App config_
+- com.apple.HIToolbox
+- com.apple.imagecapture - _Image Capture App config_
+- com.apple.loginwindow - _Boot Screen config_
+- com.apple.menuextra.clock - _Menu bar clock settings_
+- com.apple.mobiletimer - _iPhone Clock_
+- com.apple.ncprefs - _Notifications center config_
+- com.apple.notificationcenterui
+- com.apple.preference.general
+- com.apple.Preferences - _[See official doc](https://developer.apple.com/documentation/devicemanagement/systempreferences)_
+- com.apple.preferences.extensions.CredentialProvider
+- com.apple.preferences.extensions.PhotoEditing
+- com.apple.preferences.extensions.PhotoProjects
+- com.apple.preferences.extensions.QuickLook
+- com.apple.preferences.extensions.ServicesWithUI
+- com.apple.preferences.extensions.ShareMenu
+- com.apple.preferences.extensions.XcodeSourceEditor
+- com.apple.preferences.screentime
+- com.apple.preferences.sharing.SharingPrefsExtension
+- com.apple.screencapture
+- com.apple.screensaver
+- com.apple.spaces
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
@@ -26,11 +55,13 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.AMPLibraryAgent - _should not update see `man AMPLibraryAgent`_
 - com.apple.animoji
 - com.apple.ap.adprivacyd - _iAd privacy, should not update see `man adprivacyd`_
+- com.apple.AppleMediaServicesUI
+- com.apple.appstored - _App Store meta data_
+- com.apple.AvatarUI.Staryu
+- com.apple.bird - _Backup documents manager for iCloud. Shoult not update. See `man bird`_
+- com.apple.commerce.knownclients
 - ContextStoreAgent
 - MobileMeAccounts - _used by iCloud_
-- com.apple.commerce.knownclients
-- com.apple.AppleMediaServicesUI
-
 
 ## Not yet checked 
 - com.apple.amsaccountsd
@@ -40,14 +71,8 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.assistant
 - com.apple.assistant.backedup
 - com.apple.assistantd
+- com.apple.BezelServices - [article](https://robert.sesek.com/2016/3/bezelservices_on_os_x.html)
 
-- com.apple.AppleMultitouchMouse
-- com.apple.AppleMultitouchTrackpad
-- com.apple.appstored
-- com.apple.AvatarUI.Staryu
-- com.apple.BezelServices
-- com.apple.bird
-- com.apple.BKAgentService
 - com.apple.calculateframework
 - com.apple.CalendarAgent
 - com.apple.CallHistorySyncHelper
@@ -64,7 +89,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.CommCenter.counts
 - com.apple.commcenter.data
 - com.apple.contacts.donation-agent
-- com.apple.controlcenter
 - com.apple.coreauthd
 - com.apple.CoreGraphics
 - com.apple.corerecents.recentsd
@@ -73,9 +97,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.corespotlightui
 - com.apple.DataDeliveryServices
 - com.apple.DiagnosticExtensions.extensionTracker
-- com.apple.Dictionary
-- com.apple.DictionaryServices
-- com.apple.dock
 - com.apple.driver.AppleBluetoothMultitouch.mouse
 - com.apple.driver.AppleBluetoothMultitouch.trackpad
 - com.apple.driver.AppleHIDMouse
@@ -84,7 +105,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.FaceTime
 - com.apple.facetime.bag
 - com.apple.fileproviderd
-- com.apple.finder
 - com.apple.FolderActionsDispatcher
 - com.apple.FontRegistry.user
 - com.apple.frameworks.diskimages.diuiagent
@@ -92,7 +112,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.gamed
 - com.apple.GEO
 - com.apple.helpviewer
-- com.apple.HIToolbox
 - com.apple.homed
 - com.apple.homed.notbackedup
 - com.apple.iBooksX
@@ -104,7 +123,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.identityservices.idstatuscache
 - com.apple.identityservicesd
 - com.apple.ids.subservices
-- com.apple.imagecapture
 - com.apple.imagent
 - com.apple.imdpersistence.IMDPersistenceAgent
 - com.apple.imessage
@@ -116,18 +134,14 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.itunescloud.daemon
 - com.apple.itunesstored
 - com.apple.keyboardservicesd
-- com.apple.loginwindow
 - com.apple.madrid
 - com.apple.Maps
 - com.apple.mediaaccessibility
 - com.apple.mediaanalysisd
-- com.apple.menuextra.clock
 - com.apple.messages.nicknames
 - com.apple.MobileSMS
-- com.apple.mobiletimer
 - com.apple.Music
 - com.apple.Music.eq
-- com.apple.ncprefs
 - com.apple.NewDeviceOutreach
 - com.apple.news.tag
 - com.apple.news.widget
@@ -135,24 +149,12 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.newscore
 - com.apple.newscore2
 - com.apple.newsd
-- com.apple.notificationcenterui
 - com.apple.parsecd
 - com.apple.passd
 - com.apple.photoanalysisd
 - com.apple.photolibraryd
 - com.apple.Photos.PhotosReliveWidget
 - com.apple.photos.shareddefaults
-- com.apple.preference.general
-- com.apple.Preferences
-- com.apple.preferences.extensions.CredentialProvider
-- com.apple.preferences.extensions.PhotoEditing
-- com.apple.preferences.extensions.PhotoProjects
-- com.apple.preferences.extensions.QuickLook
-- com.apple.preferences.extensions.ServicesWithUI
-- com.apple.preferences.extensions.ShareMenu
-- com.apple.preferences.extensions.XcodeSourceEditor
-- com.apple.preferences.screentime
-- com.apple.preferences.sharing.SharingPrefsExtension
 - com.apple.proactive.PersonalizationPortrait
 - com.apple.protectedcloudstorage.protectedcloudkeysyncing
 - com.apple.quicklook.ThumbnailsAgent
@@ -168,8 +170,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.SafariBookmarksSyncAgent
 - com.apple.SafariServices
 - com.apple.scheduler
-- com.apple.screencapture
-- com.apple.screensaver
 - com.apple.ScreenTimeAgent
 - com.apple.ScriptEditor2
 - com.apple.scriptmenu
@@ -183,7 +183,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.Siri
 - com.apple.siri.context.service
 - com.apple.siri.media-indexer
-- com.apple.spaces
 - com.apple.speech.recognition.AppleSpeechRecognition.CustomCommands
 - com.apple.speech.recognition.AppleSpeechRecognition.prefs
 - com.apple.speech.voice.prefs
@@ -219,17 +218,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.weather.internal
 - com.apple.xpc.activity2
 - com.knollsoft.Rectangle
-- com.microsoft.autoupdate.fba
-- com.microsoft.autoupdate2
-- com.microsoft.office
-- com.microsoft.OneDrive
-- com.microsoft.OneDrive-mac
-- com.microsoft.OneDrive.FinderSync
-- com.microsoft.OneDriveStandaloneUpdater
-- com.microsoft.OneDriveUpdater
-- com.microsoft.onenote.mac
-- com.microsoft.shared
-- com.sublimetext.4
 - knowledge-agent
 - loginwindow
 - pbs

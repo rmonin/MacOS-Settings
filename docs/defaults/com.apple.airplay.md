@@ -10,3 +10,5 @@ Some config around Air play
 defaults write com.apple.AdPlatforms showInMenuBarIfPresent -bool 0
 ```
 
+## See also
+- [com.apple.controlcenter](com.apple.controlcenter.md) - _Menu Bar, Control Center config_

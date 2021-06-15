@@ -1,4 +1,4 @@
-## com.apple.assistant.support.md
+## com.apple.assistant.support
 
 ## Keys
 
