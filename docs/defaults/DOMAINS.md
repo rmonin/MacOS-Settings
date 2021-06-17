@@ -21,6 +21,8 @@ All domains known are listed here with a quick description and a corresponding d
 - [com.apple.commerce](com.apple.commerce.md)
 - [com.apple.controlcenter](com.apple.controlcenter.md) - _Menu Bar, Control Center config_
 - com.apple.BKAgentService - Manage books from iBooks purshase
+- [com.apple.CharacterPaletteIM](com.apple.CharacterPaletteIM.md) - _emoji palette popin conf_
+- [com.apple.CharacterPicker](com.apple.CharacterPicker.md) - _List of favorites charcaters_
 - com.apple.Dictionary
 - com.apple.DictionaryServices
 - com.apple.dock - _Dock Config_
@@ -50,6 +52,13 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.helpviewer
 - com.apple.driver.AppleBluetoothMultitouch.mouse
 - com.apple.driver.AppleBluetoothMultitouch.trackpad
+- com.apple.Safari
+- com.apple.Safari.PasswordBreachAgent
+- com.apple.Safari.SafeBrowsing
+- com.apple.Safari.SandboxBroker
+- com.apple.SafariBookmarksSyncAgent
+- com.apple.SafariServices
+- com.apple.Terminal
 
 ## Non relevant domains
 - [.GlobalPreferences_m](.GlobalPreferences_m.md)
@@ -63,6 +72,10 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.appstored - _App Store meta data_
 - com.apple.AvatarUI.Staryu
 - com.apple.bird - _Backup documents manager for iCloud. Shoult not update. See `man bird`_
+- com.apple.calculateframework - _Cache currency_
+- com.apple.CalendarAgent -  used to coordinate access to calendar and reminder data. See `man CalendarAgent`
+- com.apple.CallHistorySyncHelper
+- com.apple.camera - _IOS Camera app_
 - com.apple.commerce.knownclients
 - ContextStoreAgent
 - loginwindow
@@ -87,12 +100,8 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.frameworks.diskimages.diuiagent
 - com.apple.NetworkBrowser
 - com.apple.dashboard - Doest not exists on Big Sur
+- com.apple.mail
 
-- com.apple.calculateframework
-- com.apple.CalendarAgent
-- com.apple.CallHistorySyncHelper
-- com.apple.camera
-- com.apple.CharacterPaletteIM
 - com.apple.CharacterPicker
 - com.apple.classroom
 - com.apple.cloudd
@@ -174,12 +183,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.remindd
 - com.apple.remindd.babysitter
 - com.apple.routined
-- com.apple.Safari
-- com.apple.Safari.PasswordBreachAgent
-- com.apple.Safari.SafeBrowsing
-- com.apple.Safari.SandboxBroker
-- com.apple.SafariBookmarksSyncAgent
-- com.apple.SafariServices
 - com.apple.scheduler
 - com.apple.ScreenTimeAgent
 - com.apple.ScriptEditor2
@@ -214,7 +217,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.systemuiserver
 - com.apple.talagent
 - com.apple.TelephonyUtilities
-- com.apple.Terminal
 - com.apple.textInput.keyboardServices.textReplacement
 - com.apple.TextInputMenu
 - com.apple.TextInputMenuAgent
