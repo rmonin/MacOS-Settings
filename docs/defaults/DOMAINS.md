@@ -76,12 +76,14 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.CalendarAgent -  used to coordinate access to calendar and reminder data. See `man CalendarAgent`
 - com.apple.CallHistorySyncHelper
 - com.apple.camera - _IOS Camera app_
+- com.apple.classroom - _Classroom app_
+- com.apple.cloudd - see `man cloudd`
 - com.apple.commerce.knownclients
 - ContextStoreAgent
 - loginwindow
 - MobileMeAccounts - _used by iCloud_
 
-## Not yet checked
+## Not sure
 - com.apple.amsaccountsd
 - com.apple.amsengagementd
 - com.apple.AppleMediaServices
@@ -101,18 +103,17 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.NetworkBrowser
 - com.apple.dashboard - Doest not exists on Big Sur
 - com.apple.mail
-
-- com.apple.CharacterPicker
-- com.apple.classroom
-- com.apple.cloudd
 - com.apple.CloudKit
-- com.apple.cloudpaird
-- com.apple.cloudphotod
+- com.apple.cloudpaird - _related to iCloud. Should keep as is?_
+- com.apple.cloudphotod - related to phots on iCloud. Should keep as is?_
 - com.apple.commcenter
 - com.apple.commcenter.callservices
 - com.apple.CommCenter.counts
 - com.apple.commcenter.data
 - com.apple.contacts.donation-agent
+- com.apple.TTY
+
+## Not yet checked
 - com.apple.coreauthd
 - com.apple.CoreGraphics
 - com.apple.corerecents.recentsd
@@ -224,7 +225,6 @@ All domains known are listed here with a quick description and a corresponding d
 - com.apple.touristd
 - com.apple.translationd
 - com.apple.triald
-- com.apple.TTY
 - com.apple.TV
 - com.apple.UserAccountUpdater
 - com.apple.weather.internal
