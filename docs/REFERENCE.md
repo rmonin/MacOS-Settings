@@ -1,57 +1,29 @@
-# macOS Default Values Command Reference
+# A macOS Command Reference
 
-## General Commands (1)
+**`chflags`** change file flags
 
-**chflags** change file flags\
-**defaults** user defaults system (Tip: `defaults domains` list all domains available) [List of some documented domains](defaults/DOMAINS.md)
+**`defaults`** user's defaults system /
+`defaults domains` all domains available /
+[some documented domains](defaults/DOMAINS.md)
 
-## launchctl: 
-Unload daemons/agents and generally control launchd
+**`launchctl`** Unload daemons/agents and generally control launchd /
+`launchctl list` currently set values
 
-**Tip:** Use `launchctl list` to show the currently set values for `launchctl`.
+**`mdutil`** Manage the metadata stores used by Spotlight
 
-## mdutil
-Manage the metadata stores used by Spotlight
+**`nvram`** Manipulate firmware NVRAM variables /
+`nvram -xp` all firmware variables
 
-[mdutil man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/mdutil.1.html)
+**`usr/libexec/PlistBuddy`** Useful for editing `CFBundleXXXX` file /
+`usr/libexec/PlistBuddy --help` /
+[samples](https://medium.com/@marksiu/what-is-plistbuddy-76cb4f0c262d) /
+[samples](PlistBuddy/REFERENCE.md)
 
-## nvram
-Manipulate firmware NVRAM variables
+**`pmset`** Power management settings / `pmset -g` current settings / `pmset -g ps` power source info
 
-**Tip:** Use `nvram -xp` to show all firmware variables in XML format.
+**`scutil`** system configuration parameters 
 
-[nvram man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/nvram.8.html)
+**`systemsetup`** Some machine settings located in System Preferences /
+`systemsetup -printCommands`
 
-## PListBuddy
-Read and write values to plists
-
-### PListBuddy help
-
-[PlistBuddy man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/PlistBuddy.8.html)
-
-
-## pmset
-Manipulate power management settings
-
-**Tips:**     
-* Use `pmset -g` to show the currently settings.
-* Use `pmset -g ps` to show power source info.
-
-[pmset man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/pmset.1.html)
-
-## scutil
-Manage system configuration parameters 
-
-[scutil man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/scutil.8.html)
-
-## systemsetup
-Configuration tool for certain machine settings in System Preferences.  
-
-**Tip:** Use `systemsetup -printCommands` to show the available commands.
-
-[systemsetup man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/systemsetup.8.html)
-
-## tmutil
-Time Machine utility
-
-[tmutil man page](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/tmutil.8.html)
+**`tmutil`** Time Machine utility
