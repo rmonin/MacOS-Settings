@@ -1,6 +1,6 @@
 # .macOS 
 
-A nearly exhaustive .macos dotfile config inspired from [@mathiasbynens](http://mths.be/macos) work.
+A nearly exhaustive .macos dotfile config inspired from [@mathiasbynens](http://mths.be/macos) work
 
 ## Tested environment
 
@@ -26,8 +26,8 @@ Hardware:
 ```
 
 ## Repositories configuration
-1. `master`: Reflects the fully configured .macos
-3. `rmonin`: My personal dotfile
+1. `master` Reflects the fully configured .macos
+3. `rmonin` My personal dotfile
 
 ## Usage
 When setting up a new Mac, you may want to set some sensible macOS defaults:
