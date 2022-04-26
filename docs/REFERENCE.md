@@ -2,15 +2,8 @@
 
 ## General Commands (1)
 
-### chflags
-change file flags
-
-## defaults
-Command line interface to a user's defaults.
-
-**Tip:** Use `defaults domains` to to list all domains available. 
-
-[List of some documented domains](defaults/DOMAINS.md)
+**chflags** change file flags\
+**defaults** user defaults system (Tip: `defaults domains` list all domains available) [List of some documented domains](defaults/DOMAINS.md)
 
 ## launchctl: 
 Unload daemons/agents and generally control launchd
