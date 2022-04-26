@@ -1,6 +1,8 @@
 # macOS Default Values Command Reference
 
-## chflags
+## General Commands (1)
+
+### chflags
 change file flags
 
 ## defaults
